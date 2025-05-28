@@ -771,8 +771,6 @@ footer .color-change-cloud {
 }
 
 .modal-label-checkbox {
-  display: flex;
-  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   font-family: var(--font-family);
