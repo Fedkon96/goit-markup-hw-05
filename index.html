@@ -553,28 +553,28 @@
         <div class="subscription-box">
           <p class="subscription-title">Subscribe</p>
           <form class="subscription-box-form">
-            <label class="subscription-label" for=""
+            <label class="subscription-label" for="subscription"
               ><input
                 class="subscription-input"
                 type="email"
                 name="mail"
+                id="subscription"
                 placeholder="E-mail"
-                required />
-              <button class="subscription-submit" type="submit">
-                Subscribe
-                <svg class="subscription-svg" width="24" height="24">
-                  <use
-                    class="social-icon"
-                    href="./images/icons.svg#icon-airplane"
-                  ></use>
-                </svg></button
-            ></label>
+                required/></label>
+            <button class="subscription-submit" type="submit">
+              Subscribe
+              <svg class="subscription-svg" width="24" height="24">
+                <use
+                  class="social-icon"
+                  href="./images/icons.svg#icon-airplane"
+                ></use>
+              </svg></button
           </form>
         </div>
       </div>
     </footer>
     <!-- !start modal window -->
-    <div class="modal-overlay is-open">
+    <!-- <div class="modal-overlay is-open"> -->
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -592,7 +592,7 @@
               <input
                 class="modal-input"
                 type="text"
-                name="first__name"
+                name="user-name"
                 id="user-name"
                 autofocus
                 required
@@ -647,11 +647,11 @@
           </div>
           <!-- ?comment -->
           <div class="modal-wrapper-comment">
-            <label class="modal-label" for="comment">Comment</label>
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-input-comment"
-              name="feedbeck"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               required
             ></textarea>
@@ -661,11 +661,12 @@
             <input
               class="modal-input-checkbox-hidden visually-hidden"
               type="checkbox"
-              name="privacy policy"
+              name="user-privacy"
               value="yes"
-              id="policy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="modal-label-checkbox" for="policy"
+            <label class="modal-label-checkbox" for="user-privacy"
               ><span class="custom-checkbox-input">
                 <svg class="modal-svg-checkbox" width="10" height="8">
                   <use
